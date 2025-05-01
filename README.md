@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Video Editing Frontend Platform
 
-## Getting Started
+This is a frontend-only video editing platform built using **Next.js**, **ShadCN UI**, and **Tailwind CSS**. The application allows users to upload a video, add text and image overlays, apply basic visual effects, and preview everything through a timeline interface.
 
-First, run the development server:
+> ⚠️ Note: The video trimming feature is currently **not functional** due to FFmpeg not working on my local system. All other features are working as expected.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Upload and preview video
+- ✅ Add **timed or persistent text overlays**
+- ✅ Add **timed or persistent image overlays**
+- ✅ Apply **basic video effects** (grayscale, blur)
+- ✅ Mute video audio
+- ✅ Interactive **timeline view** to visualize overlay timings
+- ✅ Sidebar tools and live overlay preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** (App Router)
+- **React** (Client Components)
+- **Tailwind CSS**
+- **ShadCN UI**
+- **Lucide Icons**
+- **React Hooks (`useState`, `useEffect`, `useRef`)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
